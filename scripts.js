@@ -8,7 +8,7 @@ request.onload = function() {
 	if (request.status >= 200 && request.status < 400) {
 		const temp = obj.main.temp;
 		console.log(temp);
-		tempElement.innerHTML = 'De temperatuur in Arnhem is ' + temp + ' &#8451';
+		tempElement.innerHTML = 'De temperatuur in Gennep is ' + temp + ' &#8451';
 	} else {
 		console.log('Deze plaats is onbekend');
 	}
