@@ -1,5 +1,5 @@
 const link =
-	'https://api.openweathermap.org/data/2.5/weather?q=Arnhem&units=metric&apikey=bcbe4acaf519f859739d43a16c7eae96';
+	'https://api.openweathermap.org/data/2.5/weather?q=Gennep&units=metric&apikey=bcbe4acaf519f859739d43a16c7eae96';
 const tempElement = document.getElementById('temp');
 const request = new XMLHttpRequest();
 request.open('GET', link, true);
