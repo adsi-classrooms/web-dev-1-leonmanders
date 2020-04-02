@@ -38,7 +38,7 @@ footer {
 	z-index: 1; /* Stay on top */
 	top: 0;
 	left: 0;
-	background-color: #111; /* Black*/
+	background-color: #193f74; /* Navy blue*/
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 60px; /* Place content 60px from the top */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -49,14 +49,14 @@ footer {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #818181;
+	color: #ffffff;
 	display: block;
 	transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-	color: #f1f1f1;
+	color: #095a07;
   }
   
   /* Position and style the close button (top right corner) */
@@ -65,21 +65,22 @@ footer {
 	top: 0;
 	right: 25px;
 	font-size: 36px;
-	margin-left: 50px;
+	margin-left:0px;
   }
   
   /* The button used to open the sidebar */
   .openbtn {
 	font-size: 20px;
 	cursor: pointer;
-	background-color: #111;
+	background-color: #102c54;
 	color: white;
-	padding: 10px 15px;
+	position: fixed;
+	padding: 5px 5px;
 	border: none;
   }
   
   .openbtn:hover {
-	background-color: #444;
+	background-color: #095a07;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
